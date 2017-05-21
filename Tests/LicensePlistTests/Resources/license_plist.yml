@@ -1,13 +1,9 @@
-# You can validate the YAML config file at http://yaml-online-parser.appspot.com
-
 # Specify GitHub's library manually.
 github:
   - owner: mono0926
     name: LicensePlist
     version: 1.2.0
-  # Depricated(Will be removed at Version 2. Use above.)
-  - mono0926/NativePopup
-
+    
 # Specify libraries to be excluded.
 exclude:
   - RxSwift
